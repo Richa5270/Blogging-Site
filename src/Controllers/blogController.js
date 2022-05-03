@@ -89,7 +89,7 @@ const GetData = async function (req, res) {
     res.status(500).send({ status: false, data: err.message });
   }
 };
-
+//PUT /blogs/:blogId
 const updateBlog = async function (req, res) {
   try {
     const blogId = req.params.blogId; 
